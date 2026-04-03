@@ -281,7 +281,7 @@
 
     .project-card:hover {
       border-color: rgba(255, 255, 255, 0.18);
-      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+      box-shadow: var(--shadow);
     }
 
     .project-image {
@@ -297,9 +297,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background:
-        linear-gradient(to top, rgba(6, 7, 10, 0.95) 10%, rgba(6, 7, 10, 0.42) 54%, rgba(6, 7, 10, 0.12) 100%),
-        linear-gradient(135deg, rgba(152, 216, 255, 0.10), rgba(216, 180, 255, 0.08));
+      background: linear-gradient(to top, rgba(6, 7, 10, 0.72) 8%, rgba(6, 7, 10, 0.18) 42%, rgba(6, 7, 10, 0.02) 72%, rgba(6, 7, 10, 0) 100%);
     }
 
     .project-content {
